@@ -1,0 +1,16 @@
+name: GhostPlugin
+version: 3.0
+main: com.example.ghostplugin.GhostPlugin
+api-version: 1.21
+author: YourName
+description: Advanced ghost mode plugin for operators
+
+commands:
+  ghost:
+    description: Toggle ghost mode
+    usage: /ghost [player]
+
+permissions:
+  ghost.admin:
+    description: Allows managing ghost mode
+    default: op
